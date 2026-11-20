@@ -32,15 +32,13 @@
 
 | Nội dung | Mức độ Việt hóa |
 |---|---|
-| 🖥️ **Giao diện (UI) & Dữ liệu Server** — Menu, Cài đặt, Kho đồ, Hồ sơ nhân vật, Trang phục, Mô tả kỹ năng | ✅ **100%** (152.850 dòng) |
-| 🎤 **Thoại nhân vật** — Toàn bộ phụ đề sảnh chính, trận đấu, tương tác | ✅ **100%** (7.274 câu thoại, 136 nhân vật) |
-| 📜 **Tài liệu & Thư từ** — Báo chí, hồ sơ Laplace, mẩu tin cốt truyện | ✅ **100%** (367 tài liệu lore in-game) |
-| 📖 **Cốt truyện chính & Sự kiện** — Toàn bộ **Chương 1 → 13 & Mọi Event lớn (1.1 → 2.8+)** | ✅ **100%** (73.958 câu thoại độc nhất, gần 100.000 lượt thoại game) |
+| 🖥️ **Giao diện (UI)** — Menu, Cài đặt, Kho đồ, Hồ sơ nhân vật, Trang phục, Mô tả kỹ năng, Màn hình đăng nhập | ✅ **100%** |
+| 🎤 **Thoại nhân vật** — Toàn bộ phụ đề sảnh chính, trận đấu, tương tác, cửa hàng và sự kiện | ✅ **100%** |
+| 📜 **Tài liệu & Thư từ** — Báo chí, hồ sơ Laplace, mẩu tin cốt truyện | ✅ **100%** |
+| 📖 **Cốt truyện chính & Sự kiện** — Toàn bộ **Chương 1 → 13 & các sự kiện** | ✅ **100%** |
 | 🗣️ **Nhánh lựa chọn hội thoại** — Tất cả câu trả lời của Vertin (người chơi) | ✅ **100%** |
-| 🎬 **Video PV / Cutscene** — Phụ đề tiếng Việt nhúng trực tiếp & kiểm toán toàn bộ 54 video | ✅ **Hoàn tất 100%** |
-| 🔤 **Font tiếng Việt** — Sắc nét, chuẩn phong cách tiểu thuyết châu Âu | ✅ Tích hợp sẵn |
-
-> **Tổng cộng:** Hơn **235.000+ dòng** dữ liệu văn bản, hội thoại và tư liệu đã được Việt hóa trọn vẹn theo phong cách văn học châu Âu cổ điển.
+| 🎬 **Video PV / Cutscene** — Phụ đề Việt cho video mở đầu và hoạt cảnh trong game | ✅ Đã tích hợp |
+| 🔤 **Font tiếng Việt** — Đầy đủ dấu tiếng Việt trên toàn bộ phông chữ trong game | ✅ Tích hợp sẵn |
 
 ---
 
@@ -51,22 +49,20 @@ Người chơi có thể tùy chọn 1 trong 3 hình thức cài đặt phù h�
 ### 👉 Tải bản cài đặt:
 Truy cập trang phát hành chính thức: **[Tải Bản Việt Hóa Mới Nhất Tại Đây (Releases)](https://github.com/lehoangthuan4568/Reverse1999-VietHoa/releases/latest)**
 
-* 📦 **Gói Tự Động (`Reverse1999_VietHoa_PC.zip`):** Tích hợp Trình cài đặt C# WinForms 1-Click + Script Batch minh bạch.
-* 📂 **Gói Thủ Công (`Reverse1999_VietHoa_Manual_CopyPaste.zip`):** Dành cho ai muốn tự Copy - Paste thuần túy, không chứa file thực thi.
+* 📦 **Gói Tự Động (`Reverse1999_VietHoa_PC.zip`):** Tích hợp bộ cài đặt nhanh + Script Batch.
+* 📂 **Gói Thủ Công (`Reverse1999_VietHoa_Manual_CopyPaste.zip`):** Dành cho ai muốn tự Copy - Paste thuần túy.
 
 ---
 
-### 🔹 Cách 1: Sử Dụng Bộ Cài 1-Click (Khuyên Dùng)
+### 🔹 Cách 1: Sử Dụng Bộ Cài Tự Động (Khuyên Dùng)
 1. Tải và giải nén `Reverse1999_VietHoa_PC.zip`.
-2. Chạy ứng dụng **`CaiDat_VietHoa_Reverse1999.exe`**.
-   > *Lưu ý: Ứng dụng được viết bằng **C# Native .NET Framework**, biên dịch trực tiếp không qua phần mềm đóng gói bên thứ ba, siêu nhẹ (~160KB) và an toàn tuyệt đối, không bị Windows Defender báo nhầm.*
-3. Ứng dụng sẽ tự động nhận diện thư mục game `Reverse1999en` (Steam hoặc Launcher).
-4. Bấm nút **`[CÀI ĐẶT / CẬP NHẬT VIỆT HÓA]`** → Xong! 🎉
-5. Bấm **`[MỞ GAME LAUNCHER]`** để vào game trải nghiệm.
+2. Mở **`CaiDat_VietHoa_Reverse1999.exe`**.
+3. Ứng dụng sẽ tự nhận diện thư mục game `Reverse1999en` (Steam hoặc Launcher).
+4. Bấm **`Cài đặt Việt hóa`** (hoặc **`Cập nhật Việt hóa`**) → Xong!
+5. Bấm **`Mở game`** để vào chơi.
 
-### 🔹 Cách 2: Sử Dụng Script Minh Bạch (`CaiDat_Bang_Script.bat`)
-1. Trong thư mục vừa giải nén của `Reverse1999_VietHoa_PC.zip`, mở file **`CaiDat_Bang_Script.bat`**.
-   > *Bạn có thể click chuột phải chọn Edit hoặc mở bằng Notepad để kiểm tra 100% từng dòng lệnh trước khi chạy.*
+### 🔹 Cách 2: Sử Dụng Script (`CaiDat_Bang_Script.bat`)
+1. Trong thư mục giải nén của `Reverse1999_VietHoa_PC.zip`, mở file **`CaiDat_Bang_Script.bat`**.
 2. Nhập phím **`1`** rồi Enter để tự động cài đặt.
 3. Khi muốn gỡ bỏ, chỉ cần nhập phím **`2`**.
 
@@ -81,20 +77,20 @@ Truy cập trang phát hành chính thức: **[Tải Bản Việt Hóa Mới Nh�
 
 ## 🔄 Cập Nhật Khi Game Update
 
-Khi game ra bản cập nhật mới (patch/version mới):
+Khi game ra bản cập nhật lớn (phiên bản mới):
 
-1. Mở lại `CaiDat_VietHoa_Reverse1999.exe` (hoặc `CaiDat_Bang_Script.bat`)
-2. Bấm **`[GỠ BỎ VIỆT HÓA]`**
+1. Mở `CaiDat_VietHoa_Reverse1999.exe` (hoặc `CaiDat_Bang_Script.bat`)
+2. Bấm **`Gỡ cài đặt`**
 3. Mở Launcher để game cập nhật bình thường
-4. Sau khi cập nhật xong, bấm **`[CÀI ĐẶT / CẬP NHẬT VIỆT HÓA]`** lại là xong!
+4. Sau khi cập nhật xong, bấm **`Cài đặt Việt hóa`** lại là xong!
 
 ---
 
 ## 🗑️ Gỡ Bỏ (Trả Về Tiếng Anh Gốc)
 
-- **Cách 1:** Mở `CaiDat_VietHoa_Reverse1999.exe` → Bấm **`[GỠ BỎ VIỆT HÓA]`**
+- **Cách 1:** Mở `CaiDat_VietHoa_Reverse1999.exe` → Bấm **`Gỡ cài đặt`**
 - **Cách 2:** Chạy `CaiDat_Bang_Script.bat` → Chọn phím **`2`**
-- **Cách 3:** Xóa trực tiếp file `version.dll` trong thư mục `Reverse1999en`.
+- **Cách 3:** Xóa `version.dll` và `viethoa.dat` trong thư mục `Reverse1999en` (nếu muốn dọn sạch toàn bộ file mod, xóa thêm các file `*_vi.dat` trong `bundles`, `EN_Language_vi.json`, và thư mục `Windows\videos\vi\`).
 
 Game sẽ trở về phiên bản tiếng Anh nguyên gốc 100% của nhà phát hành mà không để lại bất kỳ dấu vết nào.
 

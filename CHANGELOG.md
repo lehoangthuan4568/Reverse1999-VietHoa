@@ -1,5 +1,10 @@
 # Reverse: 1999 Việt Hóa — Nhật Ký Cập Nhật
 
+## [v3.9.4] — 2026-11-20
+- Bổ sung các đoạn hội thoại, phụ đề nhân vật và văn bản giao diện còn sót hoặc bị mất dấu.
+- Sửa lỗi hiển thị dấu tiếng Việt trên các phông chữ đặc biệt trong game.
+- Làm mới giao diện bộ cài đặt gọn gàng hơn và cải thiện độ ổn định khi chơi lâu.
+
 ## [v3.9.3] — 2026-11-18
 - Nâng cấp toàn bộ gói dữ liệu dịch sang định dạng mã hóa gọn nhẹ (`viethoa.dat`) 
 - Cập nhật bộ cài đặt tự động & thủ công tương thích đầy đủ với gói dữ liệu mới (chuẩn `x86_64` tương thích mọi CPU Intel/AMD và Steam).
